@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.udacity.sandwichclub.DetailActivity"
+    >
+   <LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <ImageView
+        android:id="@+id/image_iv"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:adjustViewBounds="true"
+        android:contentDescription="@string/sandwich_picture_content_description"
+        android:scaleType="centerCrop" />
+
+<!--This is the textView for the label of the below textViews-->
+    <TextView
+        android:id="@+id/name_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="The Sandwich Name"
+        android:textStyle="bold|italic"
+        android:textColor="@color/colorPrimaryDark"
+        />
+
+
+    <TextView
+        android:id="@+id/name_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""/>
+
+       <!--This is the textView for the label of the below textView-->
+    <TextView
+        android:id="@+id/alsoKnownAs_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Also Known As"
+        android:textStyle="bold|italic"
+        android:textColor="@color/colorPrimaryDark"
+      />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" "
+        android:textStyle=""
+        android:id="@+id/alsoKnownAs"
+        />
+    <!--This is the textView for the label of the below textView-->
+    <TextView
+        android:id="@+id/placeofOrigin_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Its place of Origin"
+        android:textStyle="bold|italic"
+        android:textColor="@color/colorPrimaryDark"
+        />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textStyle=""
+        android:id="@+id/placeOfOrigin"/>
+
+
+    <!--This is the textView for the label of the below textView-->
+    <TextView
+        android:id="@+id/Description_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="The sandwich's Description"
+        android:textStyle="bold|italic"
+        android:textColor="@color/colorPrimaryDark"
+       />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textStyle=""
+        android:id="@+id/description1"
+        />
+
+    <!--This is the textView for the label of the below textView-->
+    <TextView
+        android:id="@+id/ingredients_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="The ingredients"
+        android:textColor="@color/colorPrimaryDark"
+        android:textStyle="bold|italic"
+       />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textStyle=""
+        android:id="@+id/ingredientsId"/>
+
+
+</LinearLayout>
+</ScrollView>
